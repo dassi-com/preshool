@@ -1,0 +1,203 @@
+/*CONTACT-SECTION*/
+.contact-section {
+  background-color: #d6fa53;
+  color: #f0f8ff;
+}
+.contact-section .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*MEDIA QUERY*/
+}
+@media (max-width: 800px) {
+  .contact-section .content {
+    display: block;
+  }
+}
+.contact-section .content .contact-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  /*MEDIA-QUERY*/
+}
+@media (max-width: 600px) {
+  .contact-section .content .contact-content {
+    display: block;
+    text-align: center;
+  }
+}
+.contact-section .content .login-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  /*MEDIA-QUERY*/
+}
+@media (max-width: 600px) {
+  .contact-section .content .login-content {
+    display: block;
+    text-align: center;
+  }
+}
+
+/*NAVIGATION*/
+nav {
+  /*links*/
+}
+nav .span1 {
+  color: #ff4500;
+}
+nav .span2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: #1717f3;
+}
+nav a {
+  font-size: 19px;
+}
+nav .dropdown .dropdown-menu {
+  border: none;
+}
+nav .dropdown .dropdown-menu a {
+  font-size: 15px;
+  padding: 10px;
+}
+nav .dropdown .dropdown-menu a:hover {
+  background-color: #6565eb;
+  color: #f0f8ff;
+}
+
+/*SHOWCASE-SECTION*/
+.showcase-section {
+  background-image: linear-gradient(rgba(6, 5, 24, 0.4), rgba(6, 5, 24, 0.4)), url(images/img7.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+.showcase-section .showcase-content .content {
+  padding: 200px 0 200px;
+  float: right;
+  color: #fff;
+}
+.showcase-section .showcase-content .btn {
+  color: #ffffff;
+  background-color: #3131ee;
+  border: none;
+  width: 300px;
+  border-radius: 0;
+  padding: 10px;
+}
+.showcase-section .showcase-content .btn:hover {
+  background-color: #ff4500;
+}
+
+/*FORMULAR-SECTION*/
+.formular-section {
+  background-color: lightgray;
+}
+.formular-section .img-block {
+  background-image: url("images/school5.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+.formular-section h3 {
+  color: #fff;
+}
+.formular-section .formulaire {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  /*MEDIA-QUERY*/
+}
+@media (max-width: 982px) {
+  .formular-section .formulaire {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+.formular-section .form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.formular-section .btn {
+  background-color: #333;
+  border: none;
+  padding: 20px;
+  font-size: 20px;
+  font-style: italic;
+}
+.formular-section .btn:hover {
+  background-color: black;
+  color: white;
+}
+.formular-section input {
+  border: none;
+  padding: 15px;
+  outline: none;
+}
+.formular-section textarea {
+  outline: none;
+}
+.formular-section ::-moz-placeholder {
+  font-size: 17px;
+  font-style: italic;
+}
+.formular-section ::placeholder {
+  font-size: 17px;
+  font-style: italic;
+}
+.formular-section .line {
+  width: 45px;
+  height: 5px;
+  background-color: red;
+  position: relative;
+  top: -5px;
+}
+
+/*FOOTER-SECTION*/
+.footer-section {
+  background-color: rgb(6, 6, 53);
+  color: #ffffff;
+}
+.footer-section img {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.footer-section h1 .span1 {
+  color: #ff4500;
+}
+.footer-section h1 .span2 {
+  color: #5f5ff0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.footer-section .footer-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  /*media query*/
+  /*media query*/
+}
+@media (max-width: 1000px) {
+  .footer-section .footer-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+@media (max-width: 750px) {
+  .footer-section .footer-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+.footer-section .footer-content .content3 .images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}/*# sourceMappingURL=contact.css.map */

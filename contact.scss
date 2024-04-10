@@ -1,0 +1,231 @@
+/*CONTACT-SECTION*/
+.contact-section{
+    background-color: #d6fa53;
+    color: #f0f8ff;
+    .content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /*MEDIA QUERY*/
+        @media(max-width:800px){
+            display: block;
+        }
+
+        .contact-content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            /*MEDIA-QUERY*/
+            @media(max-width:600px){
+                display: block;
+                text-align: center;
+            }
+        }
+
+        .login-content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+             /*MEDIA-QUERY*/
+             @media(max-width:600px){
+                display: block;
+                text-align: center;
+            }
+        }
+    }
+}
+
+/*NAVIGATION*/
+nav{
+
+   .span1{
+    color: #ff4500;
+   }
+
+   .span2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: #1717f3;
+   }
+   /*links*/
+   a{
+    font-size: 19px;
+   }
+
+   .dropdown{
+    .dropdown-menu{
+        border: none;
+        a{
+         
+            font-size: 15px;
+            padding: 10px;
+        }
+
+        a:hover{
+            background-color: #6565eb;
+            color: #f0f8ff;
+            
+        }
+
+    }
+   }
+}
+
+/*SHOWCASE-SECTION*/
+.showcase-section{
+     background-image:linear-gradient(rgba(6, 5, 24, 0.4),rgba(6, 5, 24, 0.4)), url(images/img7.jpg);
+     background-size: cover;
+     background-position: center;
+     height: 600px;
+    
+
+    .showcase-content{
+       .content{
+        padding: 200px 0 200px;
+        float: right;
+        color: #fff;
+       }
+
+       .btn{
+        color: #ffffff;
+        background-color: #3131ee;
+        border: none;
+        width: 300px;
+        border-radius: 0;
+        padding: 10px;
+       }
+
+       .btn:hover{
+        background-color: #ff4500;
+       }
+    }
+}
+
+/*FORMULAR-SECTION*/
+.formular-section{
+   background-color: lightgray;
+      
+.img-block{
+    background-image: url("images/school5.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+
+    
+}
+
+h3{
+    color: #fff;
+}
+
+.formulaire{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    /*MEDIA-QUERY*/
+    @media(max-width:982px){
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.btn{
+    background-color: #333;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    font-style: italic;
+  }
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+  input{
+    border: none;
+    padding: 15px;
+    outline: none;
+  }
+
+  textarea{
+    outline: none;
+  }
+
+   ::placeholder{
+    font-size: 17px;
+    font-style: italic;
+  }
+
+
+
+.line{
+    width: 45px;
+    height: 5px;
+    background-color: red;
+    position: relative;
+    top: -5px
+}
+}
+
+ 
+/*FOOTER-SECTION*/
+.footer-section{
+    background-color: rgb(6, 6, 53);
+    color: #ffffff;
+    img{
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+        h1{
+            .span1{
+                color: #ff4500;
+            }
+
+            .span2{
+                color: #5f5ff0;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+            }
+        }
+      
+    .footer-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        /*media query*/
+        @media(max-width:1000px){
+            display: grid;
+             grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+         /*media query*/
+         @media(max-width:750px){
+            display: grid;
+             grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+
+        .content3{
+            .images{
+              display: grid;
+              grid-template-columns: 1fr 1fr 1fr;
+               gap: 5px; 
+            }
+        }
+    }
+
+ 
+}
